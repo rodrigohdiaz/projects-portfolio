@@ -8,3 +8,32 @@ html, body {
     background: rgb(4,4,4);
     background: linear-gradient(225deg, rgba(4,4,4,0.9094012605042017) 0%, rgba(113,81,81,1) 17%, rgba(255,169,0,0.9542191876750701) 100%);
 } */
+
+.projects{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    background: #FFF;
+    height: 3.3rem;
+}
+
+.circles{
+    
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid black;
+    font-size: 1rem;
+    background-color: #beb5c4;
+}
+
+.circle:hover{
+    background-color:black;
+}
+
+.text{
+    font-size: 1.2rem;
+}
