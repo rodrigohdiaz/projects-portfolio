@@ -7,7 +7,7 @@ import Media from '../components/media'
 const Projects = () => {
     return (
         <Layout pageTitle="Projects">
-                    <p>Have a look at what I have been workin on!</p>
+                    <p>Have a look at what I have been working on!</p>
                     <div className='projects'>
                         <div className='circles'>
                             <div className='circle'>
