@@ -1,12 +1,13 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
+import '../styles/global.css'
 import { 
     container,
     heading,
     navLinks,
     navLinkItem,
     navLinkText
- } from './layout.module.css'
+ } from '../styles/layout.module.css'
 
 const Layout = ({ pageTitle, children }) => {
     return (
