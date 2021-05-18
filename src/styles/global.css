@@ -8,32 +8,63 @@ html, body {
     background: rgb(4,4,4);
     background: linear-gradient(225deg, rgba(4,4,4,0.9094012605042017) 0%, rgba(113,81,81,1) 17%, rgba(255,169,0,0.9542191876750701) 100%);
 } */
+.profile {
+    width: 90%;
+    
+}
+.photo {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 50px auto;
+    quality: 50;
+}
+
 
 .projects{
     display: flex;
+    flex-direction: row;
     list-style: none;
     padding-left: 0;
-    background: #FFF;
     height: 3.3rem;
+    height: 80%;
 }
 
 .circles{
-    
+    position: relative;
+    margin: 0 auto;
+    flex: 20%;
 }
 
 .circle{
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    border: 3px solid black;
-    font-size: 1rem;
-    background-color: #beb5c4;
+    border: 1px solid #000;
+    margin-left: 35px;
 }
 
 .circle:hover{
-    background-color:black;
+    /* background-color:black; */
+    border: 10px double #beb5c4;
+    transition: 0.5s;
 }
 
 .text{
     font-size: 1.2rem;
+    text-align: center;
+    padding-right: 45apx;
 }
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+    .projects {
+      flex-direction: column;
+    }
+  }
