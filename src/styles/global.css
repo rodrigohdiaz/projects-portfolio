@@ -46,7 +46,11 @@
 .text{
     font-size: 1.2rem;
     text-align: center;
-    padding-right: 45apx;
+    padding-right: 45px;
+}
+
+.plainText{
+    text-align: justify;
 }
 
 a{
