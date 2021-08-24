@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@react-three/fiber": "^7.0.6",
     "gatsby": "^3.4.1",
     "gatsby-plugin-gatsby-cloud": "^2.5.0",
     "gatsby-plugin-image": "^1.5.0",
@@ -22,6 +23,7 @@
     "gatsby-source-filesystem": "^3.5.0",
     "gatsby-transformer-sharp": "^3.5.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "three": "^0.131.1"
   }
 }
