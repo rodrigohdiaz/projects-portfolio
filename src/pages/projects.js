@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Layout from '../components/layout'
-// import { Link } from 'gatsby'
+import { Link } from 'gatsby'
 import "../styles/global.css" 
 import Media from '../components/media'
 
@@ -15,9 +15,9 @@ const Projects = () => {
                             </div><p className='text'>Kapture</p></a>  
                         </div>
                         <div className='circles'>
-                                <a href="https://github.com/rodrigohdiaz/draw" target="_blank" rel="noopener noreferrer">
+                                <Link to="/draw" target="_blank" rel="noopener noreferrer">
                             <div className='circle'>
-                            </div><p className='text'>Draw app</p></a>  
+                            </div><p className='text'>Draw app</p></Link>  
                         </div>
                         <div className='circles'>
                                 <a href="https://github.com/horoeka-2020/NOWhere" target="_blank" rel="noopener noreferrer">
