@@ -1,5 +1,8 @@
 #canvas-container {
-    height: 75%;
-    width: 75%;
+    display: block;
+    position: relative;
+    height: 70vh;
+    width: 90vw;
     background-color: black;
 }
+
