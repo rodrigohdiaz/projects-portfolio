@@ -4,7 +4,7 @@ import { BackSide } from "three";
 const Environment = () => {
   return (
     <mesh>
-      
+     
     </mesh>
   );
 };

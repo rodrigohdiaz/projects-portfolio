@@ -8,23 +8,20 @@ import "../styles/draw.css"
 
 const Draw = () => {
   return (
-    <div className="Draw">
+    <div className="Draw"  >
       <Layout pageTitle = "Draw">
-      <Canvas id="canvas-container">
+      <div id="canvas-container" >
+      <Canvas>
+            <pointLight position={[10, 10, 10]} />
         <mesh>
-            <boxGeometry />
-            <meshStandardMaterial />
-            <Environment>
-                
-            </Environment>
-         </mesh>
-      
-      </Canvas>
-      <Media></Media>
+            <meshToonMaterial />
+        </mesh>
+  </Canvas>
+      </div>
       </Layout>
+      <Media></Media>
     </div>
   )
 }
 
 export default Draw
-
