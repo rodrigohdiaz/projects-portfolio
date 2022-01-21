@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shippori+Mincho:wght@400;500;600&display=swap');
 
 
+html {
+    background: #3f454d;
+}
 .profile {
     width: 90%;
     
@@ -51,11 +54,12 @@
 
 .plainText{
     text-align: justify;
+    color: #98a5b8;
 }
 
 a{
     text-decoration: none;
-    color: #000;
+    color: #8292ab;
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */

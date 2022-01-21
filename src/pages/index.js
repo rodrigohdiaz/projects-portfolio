@@ -6,6 +6,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 const IndexPage = () => {
   return (
     <Layout pageTitle="Rodrigo">
+      <canvas className="webgl"></canvas>
           <h1>Welcome to my site!</h1>
             <p>This page is to show my projects.</p>
             <div className="profile">
