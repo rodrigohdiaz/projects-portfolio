@@ -5,6 +5,7 @@
     max-width: 100%;
     background-size: auto;
     font-family: 'Shippori Mincho', serif;
+    background: #3f454d;
 }
 
 .heading {
@@ -15,13 +16,14 @@
     display: flex;
     list-style: none;
     padding-left: 0;
+    padding-top: 15px;
     background: #FFF;
-    height: 1.5rem;
+    height: 2.5rem;
 }
 
 .nav-link-item {
-    padding-top: 1rem;
     padding-right: 2rem;
+    margin-left: 5%;
 }
 
 .nav-link-text {

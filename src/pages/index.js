@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import Media from '../components/media'
 import { StaticImage } from 'gatsby-plugin-image'
 
+
 const IndexPage = () => {
   return (
     <Layout pageTitle="Rodrigo">

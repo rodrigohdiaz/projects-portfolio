@@ -1,18 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shippori+Mincho:wght@400;500;600&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
-.profile {
+html,
+body{
+    overflow: hidden;
+    background: #3f454d;
+}
+
+.profile{
     width: 90%;
     
 }
-.photo {
+.photo{
     height: 300px;
     width: 300px;
     border-radius: 50%;
     display: block;
     margin: 50px auto;
 }
-
 
 .projects{
     display: flex;
@@ -51,11 +60,12 @@
 
 .plainText{
     text-align: justify;
+    color: #98a5b8;
 }
 
 a{
     text-decoration: none;
-    color: #000;
+    color: #8292ab;
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
