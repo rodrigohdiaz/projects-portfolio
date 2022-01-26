@@ -1,0 +1,45 @@
+
+.subtitle {
+        padding: 25px;
+    }
+
+.projects {
+    height: 500px;
+    background: rgba(0, 255, 0, 0);
+}
+
+
+.webgl {
+    position: fixed;
+    outline: none;
+    background: grey;
+    height: 500px;
+    width: 100%;
+}
+
+
+.circles{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 0 auto;
+    flex: 20%;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    margin: 35px;
+}
+
+.circle:hover{
+    /* background-color:black; */
+    border: 10px double #beb5c4;
+    transition: 0.5s;
+}
+
+.text {
+    padding: 25px;
+}
