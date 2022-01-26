@@ -2,15 +2,17 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
 import "../styles/global.css" 
+import "../styles/projects.css"
 import Media from '../components/media'
 
 const Projects = () => {
     return (
         <Layout pageTitle="Projects">
-                    <p>Have a look at what I have been working on!</p>
+                    <p className="subtitle">Have a look at what I have been working on!</p>
                     <div className='projects'>
+                       <canvas className="webgl"> </canvas>
                         <div className='circles'>
-                                <a href="https://github.com/horoeka-2020/kapture" target="_blank" rel="noopener noreferrer">
+                                <a href="https://kapturebyslick.herokuapp.com/profile" target="_blank" rel="noopener noreferrer">
                             <div className='circle'>
                             </div><p className='text'>Kapture</p></a>  
                         </div>
@@ -34,6 +36,8 @@ const Projects = () => {
                             <div className='circle'>
                             </div><p className='text'>Code Player</p></a>  
                         </div>
+                           
+                           
                     </div>
                     <Media></Media>
         </Layout>

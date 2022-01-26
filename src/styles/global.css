@@ -8,7 +8,8 @@
 html,
 body{
     overflow: hidden;
-    background: #3f454d;
+    background: #FFFFFF;
+    height: 100%;
 }
 
 .profile{
@@ -30,26 +31,6 @@ body{
     padding-left: 0;
     height: 3.3rem;
     height: 80%;
-}
-
-.circles{
-    position: relative;
-    margin: 0 auto;
-    flex: 20%;
-}
-
-.circle{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    border: 1px solid #000;
-    margin-left: 35px;
-}
-
-.circle:hover{
-    /* background-color:black; */
-    border: 10px double #beb5c4;
-    transition: 0.5s;
 }
 
 .text{
