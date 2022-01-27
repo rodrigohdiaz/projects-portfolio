@@ -33,6 +33,12 @@ body{
 .plainText{
     text-align: justify;
     color: #98a5b8;
+    margin-top: 30px;
+}
+
+.subtitle {
+    padding: 25px;
+    font-size: 1.5rem;
 }
 
 a{

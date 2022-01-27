@@ -8,7 +8,7 @@ import Media from '../components/media'
 const Projects = () => {
     return (
         <Layout pageTitle="Projects">
-                    <p className="subtitle">Have a look at what I have been working on!</p>
+                    <p className="subtitle">Have a look at some of my work!</p>
                     <div className='projects'>
                        <canvas className="webgl"> </canvas>
                             

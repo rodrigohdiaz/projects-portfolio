@@ -2,10 +2,11 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import Media from '../components/media'
 
+
 const About = () => {
     return (
         <Layout pageTitle="About">
-                <h3>I'm Rodrigo Díaz</h3>
+                <h3 className="subtitle">I'm Rodrigo Díaz</h3>
                 <p className="plainText center">
                     I am a full stack web developer with a background 
                     as an architect and draftsman. In moving to New 
