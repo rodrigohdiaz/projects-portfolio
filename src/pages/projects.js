@@ -65,7 +65,7 @@ const Projects = () => {
                             pressured environment.  We focused on morale by having constant check ins 
                             with each other and our own ritual to say that we were a ‘super hero’ which 
                             boosted our morale and confidence, and even made the other teams laugh - 
-                            boosting their spirits too.<br></br><br></br><hr/>
+                            boosting their spirits too.<br></br><br></br><hr/><br></br>
                             </p>   
                             </div>
                         </div>
@@ -109,7 +109,7 @@ const Projects = () => {
                             <strong>How this made me feel?</strong><br/>
                             The current result made me feel like I can accomplish anything, it is a great sensation 
                             to see live and working what you imagined.  There is still job to do, and I’m looking 
-                            forward to have a final full working project.<br></br><br></br><hr/>
+                            forward to have a final full working project.<br></br><br></br><hr/><br></br>
                             </p>   
                             </div>
                         </div>

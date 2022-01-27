@@ -23,9 +23,8 @@
 
 .circles{
     display: inline-block;
-    padding-top: 50px;
     position: relative;
-    height: 900px;
+    height: 100%;
     width: 100%;
     margin: 0 auto;
     flex: 20%;
@@ -36,13 +35,13 @@
     width: 100px;
     border-radius: 50%;
     border: 1px solid #000;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .circle:hover{
-    background-color:black;
+    background-color: #17659F;
     border: 10px #beb5c4;
-    transition: 0.5s;
+    transition: 0.7s;
 }
 
 .text {
