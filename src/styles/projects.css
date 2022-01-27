@@ -21,7 +21,6 @@
     width: 100%;
 }
 
-
 .circles{
     display: inline-block;
     padding-top: 50px;
@@ -48,4 +47,13 @@
 
 .text {
     padding: 25px;
+}
+
+.link {
+    color: #000;
+    margin-left: 50px;
+}
+
+.link:hover {
+    color: #449F17;
 }

@@ -11,6 +11,9 @@ const Projects = () => {
                     <p className="subtitle">Have a look at what I have been working on!</p>
                     <div className='projects'>
                        <canvas className="webgl"> </canvas>
+                            
+                            {/* kapture by slick - a S.T.A.R.F. analisys */}
+                        
                         <div className='circles'>
                                 <a href="https://kapturebyslick.herokuapp.com/profile" target="_blank" rel="noopener noreferrer">
                             <div className='circle'>
@@ -47,8 +50,8 @@ const Projects = () => {
                             decided to implement this feature to add a sense of achievement and 
                             encourage the user to try to spot more birds.<br></br><br></br>
                             <strong>Result:</strong><br/>
-                            The final project can be seen in
-                            <a href="https://kapturebyslick.herokuapp.com/profile" target="_blank" rel="noopener noreferrer">Kapture</a>.
+                            The final project can be seen here:<br></br>
+                            <a href="https://kapturebyslick.herokuapp.com/profile" target="_blank" rel="noopener noreferrer" className="link">Kapture</a><br></br>
                             We reached our MVP and were able to start some of the stretch goals.  
                             My big wins for the project was making the animation on the landing page, 
                             the page loader and tests.  The animation for the landing page was vital to the 
@@ -66,6 +69,9 @@ const Projects = () => {
                             </p>   
                             </div>
                         </div>
+
+                        {/* Draw application - a S.T.A.R.F. analisys */}
+
                         <div className='circles'>
                                 <Link to="/draw" target="_blank" rel="noopener noreferrer">
                             <div className='circle'>
@@ -78,7 +84,7 @@ const Projects = () => {
                             great implementation for presentations, specially in classrooms, when the 
                             teacher is drawing a sketch or a diagram to teach, so students can pay full 
                             attention without worrying to copy the diagram and just ‘screenshot’ it at 
-                            the end. <br></br><br></br>
+                            the end.<br></br><br></br>
                             <strong>The situation:</strong><br/>
                             I want to have a personal project that I can be working on on my free time, 
                             if I have any ;P . 
@@ -93,7 +99,7 @@ const Projects = () => {
                             I created a first app, with works to a point, only the main user can draw and 
                             if someone else enters the app, will have an empty canvas to draw. 
                             At the moment, this app works with p5.js, which is a library for javascript which 
-                            allows to create this drawing app<br></br><br></br>
+                            allows to create this drawing app.<br></br><br></br>
                             <strong>Result:</strong><br/>
                             At the moment, there is a working drawing app, it is simple and does the main job, 
                             which is to draw on a canvas.  Still need to work on the socket.io part and also, 
@@ -107,10 +113,42 @@ const Projects = () => {
                             </p>   
                             </div>
                         </div>
+
+                        {/* 1st blog - a S.T.A.R.F. analisys */}
+
                         <div className='circles'>
-                                <a href="https://github.com/horoeka-2020/NOWhere" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/rodrigohdiaz/rodrigohdiaz.github.io" target="_blank" rel="noopener noreferrer">
                             <div className='circle'>
-                            </div><p className='text'>NOWhere</p></a>  
+                            </div><p className='text'>1st blog</p></a>  
+                            <div className="parragraph">
+                            <p className="plainText center">
+                            This is a blog that I had to do for the ‘foundations’ for Enspiral Dev Academy’s bootcamp, 
+                            this was to be updated once a week for each of the weeks of the foundations (5 weeks)<br></br><br></br>
+                            <strong>The situation:</strong><br/>
+                            The blog is divided in 2 main parts: a cultural blog in which I explore my learning and my 
+                            experience and how I’m feeling during different challenges; and a technical blog, in which 
+                            I’m explain a couple of subjects of what I’m learning and also some examples on how I have 
+                            overcome some challenges.<br></br><br></br>
+                            <strong>The task:</strong><br/>
+                            Create a website using what I know and of what I have been learning so far, in this case it 
+                            is just html and css.<br></br><br></br>
+                            <strong>Actions taken</strong><br/>
+                            This is a simple website using exclusively html and css. I made some sketches of what I wanted 
+                            from the beginning and started to build on top of that, adding new entries each week. I saw that 
+                            I didn’t needed to use javascript as I wasn’t going to use any interactive element that I couldn’t 
+                            do using css. I use some photos of mine and some screenshots as the images to use on this blog.<br></br><br></br>
+                            <strong>Result:</strong><br/>
+                            Being a simple website, it is simple but I like to think that it is elegant in a way, using 
+                            transparencies over an image and tried to make it easier for the observer to look and interact 
+                            with it.<br></br>
+                            You can see it at:<br></br>
+                            <a href="https://rodrigohdiaz.github.io/index.html" target="_blank" rel="noopener noreferrer" className="link">Rodrigo Díaz</a><br></br><br></br>
+                            <strong>How this made me feel?</strong><br/>
+                            The current result made me feel like I can accomplish anything, it is a great sensation 
+                            to see live and working what you imagined.  There is still job to do, and I’m looking 
+                            forward to have a final full working project.<br></br><br></br><hr/>
+                            </p>   
+                            </div>
                         </div>
                         <div className='circles'>
                                 <a href="https://github.com/rodrigohdiaz/three-course" target="_blank" rel="noopener noreferrer">
