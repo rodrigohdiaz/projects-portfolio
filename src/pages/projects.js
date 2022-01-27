@@ -150,16 +150,6 @@ const Projects = () => {
                             </p>   
                             </div>
                         </div>
-                        <div className='circles'>
-                                <a href="https://github.com/rodrigohdiaz/three-course" target="_blank" rel="noopener noreferrer">
-                            <div className='circle'>
-                            </div><p className='text'>Three.js</p></a>  
-                        </div>
-                        <div className='circles'>
-                                <a href="https://github.com/rodrigohdiaz/code-player/blob/master/codeplayer.html" target="_blank" rel="noopener noreferrer">
-                            <div className='circle'>
-                            </div><p className='text'>Code Player</p></a>  
-                        </div>
                     </div>
                     <Media></Media>
         </Layout>
