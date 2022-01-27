@@ -3,11 +3,14 @@
         padding: 25px;
     }
 
-.projects {
-    height: 500px;
+.projects{
+    padding-left: 0;
+    height: 100%;
+    width: 80%;
+    position: fixed;
     background: rgba(0, 255, 0, 0);
+    overflow: auto;
 }
-
 
 .webgl {
     position: fixed;
@@ -19,8 +22,9 @@
 
 
 .circles{
+    display: inline-block;
     position: relative;
-    height: 50px;
+    height: 900px;
     width: 100%;
     margin: 0 auto;
     flex: 20%;
@@ -31,12 +35,12 @@
     width: 100px;
     border-radius: 50%;
     border: 1px solid #000;
-    margin: 35px;
+    margin: auto;
 }
 
 .circle:hover{
-    /* background-color:black; */
-    border: 10px double #beb5c4;
+    background-color:black;
+    border: 10px #beb5c4;
     transition: 0.5s;
 }
 
