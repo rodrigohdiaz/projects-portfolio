@@ -146,7 +146,7 @@ const Projects = () => {
                             <strong>How this made me feel?</strong><br/>
                             The current result made me feel like I can accomplish anything, it is a great sensation 
                             to see live and working what you imagined.  There is still job to do, and I’m looking 
-                            forward to have a final full working project.<br></br><br></br><hr/>
+                            forward to have a final full working project.<br></br><br></br><br></br>
                             </p>   
                             </div>
                         </div>
