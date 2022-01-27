@@ -48,8 +48,11 @@
 .link {
     color: #000;
     margin-left: 50px;
+    padding: 0 10px;
 }
 
 .link:hover {
     color: #449F17;
+    border-bottom: 2px solid #17659F;
+    border-radius: 10px;
 }
