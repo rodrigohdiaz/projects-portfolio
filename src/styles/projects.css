@@ -4,6 +4,7 @@
     }
 
 .projects{
+    margin-top: 35px;
     padding-left: 0;
     height: 100%;
     width: 80%;
@@ -23,6 +24,7 @@
 
 .circles{
     display: inline-block;
+    padding-top: 50px;
     position: relative;
     height: 900px;
     width: 100%;
