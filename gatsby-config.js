@@ -18,8 +18,14 @@ module.exports = {
           pngOptions: {},
           webpOptions: {},
           avifOptions: {}
-        }
+        },
+          resolve: 'gatsby-plugin-html-attributes',
+          options: {
+            lang: 'en'
+          }
+      
       }
+      
     },
     "gatsby-plugin-gatsby-cloud",
     `gatsby-plugin-image`,
