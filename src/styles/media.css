@@ -16,3 +16,7 @@
      padding: 5px;
      margin-left: 35%;
  }
+
+ .icon:hover {
+     background: red;
+ }

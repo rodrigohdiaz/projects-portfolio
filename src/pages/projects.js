@@ -4,6 +4,9 @@ import { Link } from 'gatsby'
 import "../styles/global.css" 
 import "../styles/projects.css"
 import Media from '../components/media'
+import kapture from "../images/kapture.png"
+import draw from "../images/drawApp.png"
+import blog from "../images/blog.png"
 
 const Projects = () => {
     return (
@@ -15,10 +18,16 @@ const Projects = () => {
                             {/* kapture by slick - a S.T.A.R.F. analisys */}
                         
                         <div className='circles'>
-                                <a href="https://kapturebyslick.herokuapp.com/profile" target="_blank" rel="noopener noreferrer">
+                                <Link><a href="https://kapturebyslick.herokuapp.com/profile" 
+                                         target="_blank" 
+                                         rel="noopener noreferrer">
+                                             <img src={kapture} 
+                                                  className="image" 
+                                                  alt="kapturebyslick"></img>
+                               
                             <div className='circle'>
                             </div>
-                            <p className='text'>Kapture</p></a>  
+                            <p className='text'>Kapture</p></a></Link> 
                             <div className="parragraph">
                             <p className="plainText center">
                             Final project from Enspiral Dev Academy.  The aim of the project is to 
@@ -73,9 +82,14 @@ const Projects = () => {
                         {/* Draw application - a S.T.A.R.F. analisys */}
 
                         <div className='circles'>
-                                <Link to="/draw" target="_blank" rel="noopener noreferrer">
+                            <Link><a href="https://kapturebyslick.herokuapp.com/profile" 
+                                     target="_blank" 
+                                     rel="noopener noreferrer">
+                                         <img src={draw} 
+                                              className="image" 
+                                              alt="drawApp"></img>
                             <div className='circle'>
-                            </div><p className='text'>Draw app</p></Link>  
+                            </div><p className='text'>Draw app</p></a></Link>  
                             <div className="parragraph">
                             <p className="plainText center">
                             Personal project that I have been working on, it is a real life drawing 
@@ -117,9 +131,14 @@ const Projects = () => {
                         {/* 1st blog - a S.T.A.R.F. analisys */}
 
                         <div className='circles'>
-                                <a href="https://github.com/rodrigohdiaz/rodrigohdiaz.github.io" target="_blank" rel="noopener noreferrer">
+                                <Link><a href="https://rodrigohdiaz.github.io/index.html" 
+                                         target="_blank" 
+                                         rel="noopener noreferrer">
+                                             <img src={blog} 
+                                                  className="image" 
+                                                  alt="blog"></img>
                             <div className='circle'>
-                            </div><p className='text'>1st blog</p></a>  
+                            </div><p className='text'>1st blog</p></a></Link>
                             <div className="parragraph">
                             <p className="plainText center">
                             This is a blog that I had to do for the ‘foundations’ for Enspiral Dev Academy’s bootcamp, 
