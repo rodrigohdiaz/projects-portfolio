@@ -82,7 +82,7 @@ const Projects = () => {
                         {/* Draw application - a S.T.A.R.F. analisys */}
 
                         <div className='circles'>
-                            <Link><a href="https://kapturebyslick.herokuapp.com/profile" 
+                            <Link><a href="https://github.com/rodrigohdiaz/draw" 
                                      target="_blank" 
                                      rel="noopener noreferrer">
                                          <img src={draw} 
