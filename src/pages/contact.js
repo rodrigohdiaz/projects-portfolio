@@ -10,8 +10,8 @@ const Contact = () => {
                 <h1>Need to reach me?</h1>
                     <p>You can do so in any of my social media!</p>
                     <img src={contact} 
-                         className="imageContact" 
-                         alt="contact"></img>
+                        className="imageContact" 
+                        lt="contact"></img>
         <Media></Media>
       </Layout>
     )

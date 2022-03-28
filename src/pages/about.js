@@ -25,24 +25,24 @@ const About = () => {
                     who presents with clear and open communication, 
                     as someone who works with focus and deep attention 
                     to detail, as a capable independent worked and someone 
-                     possesses a can do and willing attitude. In team 
-                     projects I have been acknowledged as a stand out 
-                     member, as someone who is calm and thinks well under 
-                     pressure, and as a particularly supportive, helpful 
-                     and caring person.<br></br><br></br>
-                     Loyal and with a solid work ethic, I am methodical 
-                     and enjoy solving problems, making things work and 
-                     I derive energy from progressive 
-                     achievements and moving projects forward, I have a 
-                     tendency to tackle things head on and am willing in 
-                     my approach to do whatever needs to be done. I am 
-                     passionate about contributing to practical websites 
-                     and application that are useful and beneficial to 
-                     users, particular where these improve their lives. 
-                     My current career interests are in progressing to 
-                     lead a development team and longer term in product 
-                     ownership. I would also like to develop more skills 
-                     working with graphics, animation and robotics.
+                    possesses a can do and willing attitude. In team 
+                    projects I have been acknowledged as a stand out 
+                    member, as someone who is calm and thinks well under 
+                    pressure, and as a particularly supportive, helpful 
+                    and caring person.<br></br><br></br>
+                    Loyal and with a solid work ethic, I am methodical 
+                    and enjoy solving problems, making things work and 
+                    I derive energy from progressive 
+                    achievements and moving projects forward, I have a 
+                    tendency to tackle things head on and am willing in 
+                    my approach to do whatever needs to be done. I am 
+                    passionate about contributing to practical websites 
+                    and application that are useful and beneficial to 
+                    users, particular where these improve their lives. 
+                    My current career interests are in progressing to 
+                    lead a development team and longer term in product 
+                    ownership. I would also like to develop more skills 
+                    working with graphics, animation and robotics.
                 </p>
         <Media></Media>
         </Layout>
