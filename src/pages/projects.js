@@ -85,7 +85,8 @@ const Projects = () => {
                                 target="_blank" 
                                 rel="noopener noreferrer">
                                     <img src={draw} 
-                                        className="image"                                             alt="drawApp"></img>
+                                        className="image"                                             
+                                        alt="drawApp"></img>
                             <div className='circle'>
                             </div>
                             <p className='text'>Draw app</p></a></Link>  

@@ -11,9 +11,9 @@ const Contact = () => {
                     <p>You can do so in any of my social media!</p>
                     <img src={contact} 
                         className="imageContact" 
-                        lt="contact"></img>
+                        alt="contact"></img>
         <Media></Media>
-      </Layout>
+    </Layout>
     )
 }
 
